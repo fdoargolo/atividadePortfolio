@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Felipe Argôlo</title>
+  <link rel="stylesheet" href="/Estilos/style.css" />
+</head>
+<body>
+  <header>
+
+    <h1>Portfólio Felipe Argôlo</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">Sobre Mim</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>Sobre Mim</h2>
+    <img src="/Assets/perfil.jpg" alt="Minha imagem" />
+    <p>Olá, meu nome é Felipe Argôlo, tenho 20 anos e Sou desenvolvedor de Software focado em Backend. Atualmente eu
+        estudo Sistemas de Informação na Universidade Tiradentes e também sou programador estagiário para o
+        Grupo Tiradentes, seja bem vindo ao meu site!</p>
+    <br>
+    <p>Sinta-se livre para explorar esse site onde tem algumas Informação sobre mim como pessoa e profissional.</p>
+    <p>Você também pode baixar meu currículo clicando <a href="/Assets/CVTemporario.jpg" download target="_blank">aqui</a>.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="projetos">
+
+      <div class="projeto">
+        <img src="img/projeto1.png" alt="Projeto 1" />
+        <h3>Nome do Projeto</h3>
+        <p>Breve descrição.</p>
+        <a href="link-do-projeto" target="_blank">Ver Projeto</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Habilidades</h2>
+    <div class="skill">
+      <label>Java (SpringBoot)</label>
+      <progress value="90" max="100"></progress>
+      <br><br>
+      <label>JavaScript/Typescript</label>
+      <progress value="90" max="100"></progress>
+      <br><br>
+      <label>HTML/CSS</label>
+      <progress value="90" max="100"></progress>
+      <br><br>
+      <label>MySql/PostgreSQL</label>
+      <progress value="90" max="100"></progress>
+      <br><br>
+      <label>Git/GitHub/GitLab</label>
+      <progress value="90" max="100"></progress>
+      
+    </div>
+   
+  </section>
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <form id="formContato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Felipe Daniel de Oliveira Argôlo</p>
+  </footer>
+
+  <script src="/Script/script.js"></script>
+</body>
+</html>
