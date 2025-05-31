@@ -188,6 +188,10 @@ footer {
   margin-top: 2rem;
 }
 
+section {
+  scroll-margin-top: 110px; 
+}
+
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
@@ -198,8 +202,6 @@ footer {
     grid-template-columns: 1fr;
   }
 }
-
-/* === ANIMACOES PPRA DEIXAR MAIS INTERATIVO === */
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(30px); }
@@ -215,8 +217,6 @@ footer {
   from { transform: translateX(-50px); opacity: 0; }
   to { transform: translateX(0); opacity: 1; }
 }
-
-/* === APLICAÇÃO DAS ANIMACOES === */
 
 section {
   animation: fadeIn 1s ease-in-out both;
